@@ -17,11 +17,8 @@
     background:rgba(0,0,0,0.6);
 }
 
-.btn:hover{
-    background-color: black;
 
-}
-
+/* este css lo use para que el boton tuviera una posision fija */
 .Mbtn
 {
     transform: translate(-130%,90%)!important;
@@ -36,7 +33,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
-    font-size: 100px;
+    font-size: 80px;
     
 }
 .fondo-obscuro::before
@@ -62,7 +59,7 @@
     justify-content: center;
 
 }
-
+/* este css fue para centrar el h1 */
 .centered {
     position: absolute;
     top: 45%;
@@ -75,7 +72,7 @@
 
 
 /* PRUEBAS */
-
+/* este css lo use para crear la animacion de subrayado en el nav */
 
 .nav2 {
     display: inline-flex;
@@ -133,8 +130,16 @@
    }
 }
 
+/* este css es para que el nav se obscuresca cuando se encoja la pantalla */
+
 @media screen and (max-width: 992px){
  .black-sm {
      background-color: black;
  }       
+}
+
+/* este css es para que el nav bar se obscuresca cuando se haga scroll */
+.bg-negro
+{
+    background-color: black;
 }
