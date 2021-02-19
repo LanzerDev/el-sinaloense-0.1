@@ -17,7 +17,6 @@
     background:rgba(0,0,0,0.6);
 }
 
-
 /* este css lo use para que el boton tuviera una posision fija */
 .Mbtn
 {
@@ -67,7 +66,14 @@
     transform: translate(-50%, -50%);
   }
 
+#galeria img {
+    width: 100%;
+    height: 300px;
+}
 
+#galeria .col-lg-4 {
+    padding: 25px;
+}
 
 
 
