@@ -75,6 +75,22 @@
     padding: 25px;
 }
 
+#visitenos .col-lg-4 {
+    padding: 35px;
+}
+
+.align-visit-text{
+    
+    float: left;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+@media screen and (max-width: 992px) {
+    .align-visit-text {
+        padding-top: 15px;
+    }
+}
+
 
 
 /* PRUEBAS */
