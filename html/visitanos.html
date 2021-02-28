@@ -8,13 +8,13 @@
 </head>
 
 
-<body style="background-color: rgb(0, 0, 0);">
+<body style="background-color: rgb(255, 255, 255);">
 <!-- NAVBAR -->
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark transition1 black-sm">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark transition1 black-sm bg-negro">
     
      <div class="container-fluid">
-        <a class="nav-brand" href="#">
+        <a class="nav-brand" href="../index.html">
             <img src="../img/logo2.png" alt="" class="w-50">
         </a>
         <!-- este es el boton que responde al tamaño de a pagina -->
@@ -31,10 +31,9 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                
                 <li class="nav-item2 espaciado"><a class="nav-link text-white" href="https://www.facebook.com/ElSinaloenseCln"><i class="fab fa-facebook-square fa-lg"></i></a></li>
-                <li class="nav-item2 espaciado"><a class="nav-link text-white" href="#galeria">Fotos</a></li>
-                <li class="nav-item2 espaciado"><a class="nav-link text-white" href="../html/visitanos.html">Visitanos</a></li>
+                <li class="nav-item2 espaciado"><a class="nav-link text-white" href="../index.html">Fotos</a></li>
+                <li class="nav-item2 espaciado"><a class="nav-link text-white" href="#visitenos">Visitanos</a></li>
                 <li class="nav-item2 espaciado"><a class="nav-link text-white" href="#">Contacto</a></li>
                 <li class="nav-item2 espaciado"><a class="nav-link text-white" href="#">Sobre nosotros</a></li>
                 <span class="nav-indicator"></span>
@@ -44,67 +43,25 @@
     </div>
     </nav>
 </header>
-<!-- IMAGEN -->
 
+<!-- visitanos -->
 
-<div class="fondo-obscuro w-100">
-    <h1 class="letras-blancas"></h1>
-</div>
-<h1 class="letras-blancas fuente centered" style="font-size: 7vw;">Bienvenidos al Sinaloense<a style="font-size: 2.5vw;"><br>los mejores mariscos y el mejor ambiente</a></h1>
-
-<!-- GALERIA -->
-
-<section id="galeria" class="container">
-    <div class="text-center">
-        <h2 class="fuente letras-blancas" style="padding-top: 20px;">FOTOS</h2>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="../img/img-4.jpg" alt="" srcset="">
-        </div>
-        <div class="col-lg-4">
-            <img src="../img/img-3.jpg" alt="" srcset="">
-        </div>
-        <div class="col-lg-4">
-            <img src="../img/img-2.jpg" alt="" srcset="">
-        </div>
-        <div class="col-lg-4">
-            <img src="../img/img-1.jpg" alt="" srcset="">
-        </div>
-        <div class="col-lg-4">
-            <img src="../img/img-7.jpg" alt="" srcset="">
-        </div>
-        <div class="col-lg-4">
-            <img src="../img/img-6.png" alt="" srcset="">
-        </div>
-    </div>
-</section>
-
-
-
-<!-- VISITENOS -->
-
-
-    <!-- <div class="container" id="visitenos">
-        <h2 class="fuente letras-blancas text-center" style="padding-top: 20px;">VISITANOS</h2>
-        <p class="letras-blancas col-lg-4 align-visit-text">Blvrd Enrique Sánchez Alonso 1860, Desarrollo Urbano Tres Ríos, 80020 Culiacán Rosales, Sin.</p>
+    <div class="container align-visit" id="visitenos" style="padding-top: 10%;">
+        <h2 class="fuente s text-center align-visit">VISITANOS</h2>
+        <p class=" col-lg-4 align-visit-text">Blvrd Enrique Sánchez Alonso 1860, Desarrollo Urbano Tres Ríos, 80020 Culiacán Rosales, Sin.</p>
         <div  style="float: right;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905.3248274543301!2d-107.40108025669711!3d24.819435841102663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc133ff2336455605!2sMariscos%20El%20Sinaloense!5e0!3m2!1ses-419!2smx!4v1614398329870!5m2!1ses-419!2smx" width="550" height="400"  allowfullscreen="" loading="lazy"></iframe>
         </div>
-    </div> -->
-
-
+    </div>
 <!-- FOOTER -->
 
 
-    <div class="text-center" style=" margin-top: 8%; padding-bottom: 2%; background-color: white;">
+    <div class="text-center logo-margin" style="padding-bottom: 5%; padding-top: 35%;">
         <img class="w-25" src="../img/logo.png" alt=""> <br>
         <u class="">© 2021 El Sinaloense Mariscos. All Rights Reserved</u> <br>
         <u class="">Aviso Legal</u> <br> 
         <u class="">Politica de privacidad</u>
     </div>
-
 
 
 <!-- CSS only -->
@@ -119,12 +76,9 @@
 <!-- JAVASCRIPT -->
 <script type="text/javascript">
 window.addEventListener("scroll", function(){
-    var nav = document.querySelector("nav");
-    nav.classList.toggle("bg-negro", window.scrollY > 0)
-
+  
     var nav = document.querySelector("nav");
     nav.classList.toggle("p-0", window.scrollY > 0)
 })
 </script>
 </body>
-</html>

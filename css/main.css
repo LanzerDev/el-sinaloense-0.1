@@ -75,11 +75,8 @@
     padding: 25px;
 }
 
-#visitenos .col-lg-4 {
-    padding: 35px;
-}
 
-.align-visit-text{
+.align-visit-text {
     
     float: left;
     padding-top: 90px;
@@ -91,7 +88,18 @@
     }
 }
 
+align-visit {
+    padding-top: 10%;
+}
+@media screen and (max-width: 992px) {
+    .align-visit {
+        padding-top: 25%;
+        }
+}
 
+.letras-negras {
+    color: black;
+}
 
 /* PRUEBAS */
 /* este css lo use para crear la animacion de subrayado en el nav */
@@ -165,3 +173,4 @@
 {
     background-color: black;
 }
+
